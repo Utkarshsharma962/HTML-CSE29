@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="./Forms.html" target="_blank" name="Biodata" method="get"></form>
+    <fieldset>
+        <legend>Biodata</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+        <label for="DOB">DOB:</label>
+        <input type="date" id="DOB" name="DOB" placeholder="Enter Your DOB" required>
+        <br>
+        <br>
+        <label for="tel">Phone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Enter Your Number" min="10" max="10">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Emial"required>
+        <br>
+        <br>
+        <label for="attempt">Attempt</label>
+        <input type="number" name="attempt" id="attempt">
+        <br>
+        <br>
+        <label for="gender"> Gender:</label>
+        <input type="radio" name="male" id="male" name="gender"
+        value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" name="gender"
+        value="female" required>
+        <label for="female">Female</label><br>
+        <lable for="check">Vehicles u have</lable>
+            <input type="checkbox" id="bike" name="vehicle" value="bike">
+            <lable for="bike">Bike</lable>
+            <input type="checkbox" id="car" name="vehicle2" value="car" checked/>
+            <lable for="car">Car:</lable><br>
+         <lable for="lang">select your programming language</lable>
+         <select name="lang" id="lang">
+            <option> Select your language</option>
+            <option value="c">C</option>
+                        <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+         </select>
+
+
+
+
+<br>
+         <lable for="pass">Password:</lable>
+         <input type="password" id="pass" name="pass" required/>
+        <br>
+         <input type="submit" value="submit" />
+         <input type="reset" value="reset" />
+         <lable for="add">Address:</lable>
+         <textarea name="text" id="text"></textarea>
+    </fieldset>
+
+</body>
+
+</html>
